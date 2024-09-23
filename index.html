@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1 border border-dark custom-pill, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1 custom-pill, shrink-to-fit=no"
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -22,6 +22,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -65,7 +66,7 @@
       <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1 border border-dark custom-pill"></li>
+          <li data-target="#myCarousel" data-slide-to="1 custom-pill"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
@@ -167,6 +168,7 @@
 
         <div id="about" class="row featurette">
           <div class="col-md-7">
+            <div class="page-head">
             <h2 class="featurette-heading pt-5 pb-4">Bailey Beck</h2>
             <p class="lead">
               I am a creative, full-stack software engineer that strives for
@@ -178,6 +180,7 @@
               designing functional applications and creating a welcoming user
               experience.
             </p>
+          </div>
           </div>
           <div class="col-md-5">
             <img
@@ -201,7 +204,7 @@
               height="140"
             />
             <h2>Plane Spotter</h2>
-            <p>An application for plane spotters and aviation enthusiasts.</p>
+            <p>Plane spotting made simple.</p>
             <p>Skills used: Django, Python, Bootstrap, PostgreSQL</p>
             <p>
               <a class="btn btn-secondary" target="_blank" href="https://plane-spotter-2944dbb5733c.herokuapp.com/" role="button">Website</a>
@@ -236,7 +239,7 @@
             />
             <h2>Wordle</h2>
             <p>
-              Guess the word before you're out of tries!
+              Guess the mystery word!
             </p>
             <p>Skills used: HTML, CSS, JavaScript</p>
             <p>
@@ -255,9 +258,9 @@
             />
             <h2>Gardener's Guide</h2>
             <p>
-              An all-in-one guide to a beautiful, healthy collection of plants.
+              Your guide to gardening.
             </p>
-            <p>Skills used: React, MongoDB, Express, Node, JavaScript, CSS/SASS</p>
+            <p>Skills: React, MongoDB, Express, Node, JavaScript, CSS/SASS</p>
             <p>
               <a class="btn btn-secondary" target="_blank" href="https://gardeners-guide.netlify.app/" role="button">Website</a>
               <a class="btn btn-secondary" target="_blank" href="https://github.com/Baileybk2/gardeners-guide-react" role="button">GitHub</a>
@@ -277,44 +280,37 @@
             <div>
               <h4>Languages</h4>
               <ul class="list-unstyled d-flex flex-wrap">
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Node.js</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Python</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Javascript</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">HTML</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">CSS</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">SCSS</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">SQL</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Mongoose</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">JSON</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">EJS</span></li>
+                <li><span class="badge m-1 custom-pill">Node.js</span></li>
+                <li><span class="badge m-1 custom-pill">Python</span></li>
+                <li><span class="badge m-1 custom-pill">Javascript</span></li>
+                <li><span class="badge m-1 custom-pill">HTML</span></li>
+                <li><span class="badge m-1 custom-pill">CSS</span></li>
+                <li><span class="badge m-1 custom-pill">SCSS</span></li>
+                <li><span class="badge m-1 custom-pill">SQL</span></li>
+                <li><span class="badge m-1 custom-pill">Mongoose</span></li>
+                <li><span class="badge m-1 custom-pill">JSON</span></li>
+                <li><span class="badge m-1 custom-pill">EJS</span></li>
               </ul>
             </div>
             <div>
               <h4>Libraries/Frameworks</h4>
               <ul class="list-unstyled d-flex flex-wrap">
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">React</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Express.js</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Django</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Bootstrap</span></li>
+                <li><span class="badge m-1 custom-pill">React</span></li>
+                <li><span class="badge m-1 custom-pill">Express.js</span></li>
+                <li><span class="badge m-1 custom-pill">Django</span></li>
+                <li><span class="badge m-1 custom-pill">Bootstrap</span></li>
               </ul>
             </div>
             <div>
               <h4>Databases/Other</h4>
               <ul class="list-unstyled d-flex flex-wrap">
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">PostgreSQL</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">MongoDB</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">RESTful Routing</span></li>
-                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">JSON API</span></li>
+                <li><span class="badge m-1 custom-pill">PostgreSQL</span></li>
+                <li><span class="badge m-1 custom-pill">MongoDB</span></li>
+                <li><span class="badge m-1 custom-pill">RESTful Routing</span></li>
+                <li><span class="badge m-1 custom-pill">JSON API</span></li>
               </ul>
             </div>
             
-            <style>
-              .custom-pill {
-                padding: 10px 20px;  
-                font-size: 1.1rem;  
-                border-width: 2px;   
-              }
-            </style>
             
           <!-- </div>
         </div> -->
@@ -332,16 +328,14 @@
                 <li class="col-md-3"><a href="https://www.linkedin.com/in/bailey-beck-061076220/" target="_blank">LinkedIn</a></li>
                 <li class="col-md-3"><a href="mailto:baileybk2@gmail.com">baileybk2@gmail.com</a></li>
               </ul>
-            
           </div>
-          
-         
+        </div>
        
 
         <hr class="featurette-divider" />
 
         <!-- /END THE FEATURETTES -->
-      </div>
+    
       <!-- /.container -->
 
       <!-- FOOTER -->
@@ -354,7 +348,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script
-      src="https://code.jquery.com/jquery-3.2.1 border border-dark custom-pill.slim.min.js"
+      src="https://code.jquery.com/jquery-3.2.1 custom-pill.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
     ></script>

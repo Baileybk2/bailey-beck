@@ -1,1 +1,38 @@
+.custom-pill {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 6px 14px;
+  background: #70c1b7;
+  color: #103d38;
+  border: 1px solid #103d38;
+}
 
+@keyframes slideLeft {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.featurette-image {
+  animation: slideLeft 1.5s ease-out forwards;
+}
+
+.page-head {
+  animation: slideRight 1.5s ease-out forwards;
+}
