@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1 border border-dark custom-pill, shrink-to-fit=no"
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -65,7 +65,7 @@
       <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="1 border border-dark custom-pill"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
@@ -274,41 +274,48 @@
             <h2 class="featurette-heading">
               Technical Skills
             </h2>
-            <div class="row">
-              <div class="col-lg-4">
-                <h4>Languages</h4>
-                <ul>
-                  <li>Node.js</li>
-                  <li>Python</li>
-                  <li>Javascript</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>SCSS</li>
-                  <li>SQL</li>
-                  <li>Mongoose</li>
-                  <li>JSON</li>
-                  <li>EJS</li>
-                </ul>
-              </div>
-              <div class="col-lg-4">
-                <h4>Libraries/Frameworks</h4>
-                <ul>
-                  <li>React</li>
-                  <li>Express.js</li>
-                  <li>Django</li>
-                  <li>Bootstrap</li>
-                </ul>
-              </div>
-              <div class="col-lg-4">
-                <h4>Databases/Other</h4>
-                <ul>
-                  <li>PostgreSQL</li>
-                  <li>MongoDB</li>
-                  <li>RESTful Routing</li>
-                  <li>JSON API</li>
-                </ul>
-              </div>
+            <div>
+              <h4>Languages</h4>
+              <ul class="list-unstyled d-flex flex-wrap">
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Node.js</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Python</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Javascript</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">HTML</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">CSS</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">SCSS</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">SQL</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Mongoose</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">JSON</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">EJS</span></li>
+              </ul>
             </div>
+            <div>
+              <h4>Libraries/Frameworks</h4>
+              <ul class="list-unstyled d-flex flex-wrap">
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">React</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Express.js</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Django</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">Bootstrap</span></li>
+              </ul>
+            </div>
+            <div>
+              <h4>Databases/Other</h4>
+              <ul class="list-unstyled d-flex flex-wrap">
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">PostgreSQL</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">MongoDB</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">RESTful Routing</span></li>
+                <li><span class="badge bg-light text-dark m-1 border border-dark custom-pill">JSON API</span></li>
+              </ul>
+            </div>
+            
+            <style>
+              .custom-pill {
+                padding: 10px 20px;  
+                font-size: 1.1rem;  
+                border-width: 2px;   
+              }
+            </style>
+            
           <!-- </div>
         </div> -->
 
@@ -319,14 +326,13 @@
             <h2 class="featurette-heading">
               Contact
             </h2>
-            <p class="lead">
-              <ul style="list-style-type: none; padding-left: 0">
-                <li><a href="assets/BECKresume2024.pdf" target="_blank" download>Resume</a></li>
-                <li><a href="https://github.com/Baileybk2" target="_blank">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/bailey-beck-061076220/" target="_blank">LinkedIn</a></li>
-                <li><a href="mailto:baileybk2@gmail.com">baileybk2@gmail.com</a></li>
+              <ul class="row list-unstyled" style="list-style-type: none; padding-left: 0">
+                <li class="col-md-3"><a href="assets/BECKresume2024.pdf" target="_blank" download>Resume</a></li>
+                <li class="col-md-3"><a href="https://github.com/Baileybk2" target="_blank">GitHub</a></li>
+                <li class="col-md-3"><a href="https://www.linkedin.com/in/bailey-beck-061076220/" target="_blank">LinkedIn</a></li>
+                <li class="col-md-3"><a href="mailto:baileybk2@gmail.com">baileybk2@gmail.com</a></li>
               </ul>
-            </p>
+            
           </div>
           
          
@@ -348,7 +354,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      src="https://code.jquery.com/jquery-3.2.1 border border-dark custom-pill.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
     ></script>
