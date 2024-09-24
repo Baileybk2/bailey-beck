@@ -4,22 +4,20 @@
 }
 
 .section-two {
-  background-color: rgb(161, 253, 222);
   padding-bottom: 3rem;
 }
 
 .section-three {
-  background-color: rgb(109, 245, 200);
+  background-color: rgb(187, 250, 229);
   padding-bottom: 3rem;
 }
 
 .section-four {
-  background-color: rgb(66, 248, 187);
   padding-bottom: 3rem;
 }
 
 .section-five {
-  background-color: rgb(39, 248, 179);
+  background-color: rgb(187, 250, 229);
   padding-bottom: 3rem;
 }
 
@@ -27,9 +25,9 @@
   font-weight: 400;
   font-size: 14px;
   padding: 6px 14px;
-  background: #70c1b7;
-  color: #103d38;
-  border: 1px solid #103d38;
+  background: #fff;
+  color: #046b4e;
+  border: 1px solid #046b4e;
 }
 
 @keyframes slideLeft {
@@ -75,4 +73,9 @@
 
 .pill-animate {
   animation: pillAnimate 0.2s ease-in-out;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #046b4e;
 }

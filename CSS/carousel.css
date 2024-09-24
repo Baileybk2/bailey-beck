@@ -56,9 +56,6 @@ body {
 
 /* Featurettes
 ------------------------- */
-.featurette-divider {
-  margin: 0;
-}
 
 /* Thin out the marketing headings */
 .featurette-heading {
@@ -85,7 +82,7 @@ body {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
   }
 }
