@@ -105,3 +105,26 @@ a {
   text-decoration: none;
   color: #046b4e;
 }
+
+.card-img-container {
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.background-wordle {
+  background-image: url("../assets/wordle.png");
+}
+
+.background-gg {
+  background-image: url("../assets/gardenersguide.png");
+}
+
+.background-planes {
+  background-image: url("../assets/planespotter.png");
+}
+
+.background-pass {
+  background-image: url("../assets/passport.png");
+}
