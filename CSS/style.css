@@ -69,11 +69,11 @@
 }
 
 .featurette-image {
-  animation: slideLeft 1.5s ease-in-out forwards;
+  animation: slideLeft 1s ease-in-out forwards;
 }
 
 .page-head {
-  animation: slideRight 1.5s ease-in-out forwards;
+  animation: slideRight 1s ease-in-out forwards;
 }
 
 @keyframes pillAnimate {
@@ -127,4 +127,15 @@ a {
 
 .background-pass {
   background-image: url("../assets/passport.png");
+}
+
+.background-headshot {
+  margin-top: 35px;
+  background-image: url("../assets/headshot.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 450px;
+  height: 450px;
+  border-radius: 110px 10px 110px 10px;
 }
