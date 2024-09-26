@@ -28,12 +28,22 @@
 }
 
 .custom-pill {
-  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   font-size: 14px;
-  padding: 6px 14px;
+  padding: 5px 8px;
   background: #fff;
   color: #046b4e;
   border: 1px solid #046b4e;
+  border-radius: 9px;
+}
+
+.custom-btn {
+  background-color: #046b4e;
+  color: #fff;
+  padding: 5px 8px;
+  margin: 2px;
+  margin-top: 8px;
 }
 
 @keyframes slideLeft {
